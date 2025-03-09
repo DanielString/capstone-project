@@ -1,0 +1,11 @@
+@import url(/css/reset.css);
+
+html {
+  background-image: url(/images/woodstockback.jpg);
+}
+
+body {
+  width: 95%;
+  color: ivory;
+  margin: 0 auto;
+}
