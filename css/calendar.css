@@ -1,0 +1,99 @@
+@import url('reset.css');
+
+html {
+  background-image: url(/images/calback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: ivory;
+  text-shadow: 2px 2px 2px black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: ivory;
+  margin: 15px 0;
+  text-align: center;
+}
+
+#calendar-wrap {
+  width: 100%;
+}
+
+#calendar-wrap a {
+  color: pink;
+}
+
+#calendar-wrap ul {
+  clear: both;
+  width: 100%;
+}
+
+#calendar-wrap li {
+  display: block;
+  float: left;
+  width: 10%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+#calendar .weekdays {
+  height: 40px;
+  background: grey;
+  width: 100%;
+}
+
+#calendar .weekdays li {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none !important;
+  padding: 10px 6px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#calendar .days li {
+  height: 100px;
+}
+
+#calendar .days li:hover {
+  background: #9a9a9a;
+}
+
+#calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* color: #fff */
+}
+
+.red-letter {
+  color: red;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  #calendar .weekdays {
+    display: none;
+  }
+  #calendar li {
+    height: auto !important;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -1px;
+  }
+  #calendar .date {
+    float: none;
+  }
+}
