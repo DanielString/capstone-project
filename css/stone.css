@@ -2,6 +2,10 @@
 
 html {
   background-image: url(/images/stoneback.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
@@ -23,13 +27,13 @@ body {
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Oswald, Georgia, 'Times New Roman', Times, serif;
   font-size: 4rem;
   font-weight: bold;
   color: rgb(196, 30, 30);
   text-shadow: 1px 1px 2px black;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
 }
 .container {
   display: flex;

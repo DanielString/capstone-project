@@ -1,14 +1,15 @@
 html {
-  background-image: url(/images/mainback3.jpg);
+  background-image: url(/images/mainback2.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  color: ivory;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  color: rgb(196, 30, 30);;
   text-shadow: 2px 2px 2px black;
   text-align: center;
 }
@@ -23,9 +24,9 @@ h1 {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-
 }
 a {
   text-decoration: none;
@@ -36,17 +37,24 @@ a {
 }
 
 button {
-  background-color: maroon;
+  background-color: rgb(196, 30, 30);;
   border: 2px solid ivory;
   border-radius: 15%;
   padding: 50px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 800px) {
   html {
-    background-image: url(/images/mainback2.jpg);
+    background-image: url(/images/mainback3.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 }
