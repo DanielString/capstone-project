@@ -70,16 +70,37 @@ h1 {
   background: #9a9a9a;
 }
 
+.days .red-letter a:visited {
+  text-decoration: none;
+}
+
 #calendar .date {
-  text-align: center;
+  display: flex;
   margin-bottom: 5px;
-  padding: 5px;
+  padding: 10px;
   /* color: #fff */
 }
 
 .red-letter {
   color: red;
   font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background:rgb(196, 30, 30);
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: ivory;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -94,6 +115,12 @@ h1 {
     margin-bottom: -1px;
   }
   #calendar .date {
-    float: none;
+   display: flex;
+  }
+  #calendar .days .other-month {
+    display: none;
+  }
+  #calendar .days .red-letter a:visited {
+    text-decoration: none;
   }
 }
