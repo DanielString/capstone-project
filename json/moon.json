@@ -1,15 +1,19 @@
-{
-  "quotes":
+
   [
     {
       "quote": "First, I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to the earth.",
-      "source": "President John F. Kennedy",
+      "source": "President John F. Kennedy"
+    },
+    {
       "quote": "The Eagle has wings",
-      "source": "Neil Armstrong as the Lunar Module undocked from 'Columbia'",
+      "source": "Neil Armstrong as the Lunar Module undocked from 'Columbia'"
+    },
+    {
       "quote": "Tranquility Base here.  The Eagle has landed",
-      "source": "Neil Armstrong after the LEM had landed on the moon",
-      "quote": "Magnificent Desolation",
+      "source": "Neil Armstrong after the LEM had landed on the moon"
+    },
+    {
+         "quote": "Magnificent Desolation",
       "source": "'Buzz' Aldrin's description of the lunar surface"
     }
   ]
-}

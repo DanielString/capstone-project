@@ -1,13 +1,14 @@
-{
-  "quotes":
-  [
-    {
-      "quote": "Police! We're taking the place!",
-      "source": "Unknown officer, upon entering the Stonewall Inn",
-      "quote": "Gay Power",
-      "source": "Multiple protesters outside the inn",
-      "quote": "Gay Power.  Isn't that great",
-      "source": "Allen Ginsberg",
-    }
-  ]
-}
+[
+  {
+    "quote": "Police! We're taking the place!",
+    "source": "Unknown officer, upon entering the Stonewall Inn"
+  },
+  {
+    "quote": "Gay Power",
+    "source": "Multiple protesters outside the inn"
+  },
+  {
+    "quote": "Gay Power.  Isn't that great",
+    "source": "Allen Ginsberg"
+  }
+]

@@ -1,15 +1,18 @@
-{
-  "quotes":
   [
     {
       "quote": "We must be in heaven, man!",
-      "source": "Hugh Romney, aka 'Wavy Gravy'",
+      "source": "Hugh Romney, aka 'Wavy Gravy'"
+    },
+    {
       "quote": "City McGee, please come immediately to backstage right. I understand your wife is having a baby. Congratulations.",
-      "source": "Announcment made in between sets",
+      "source": "Announcment made in between sets"
+    },
+    {
       "quote": "You've seen the heavy groups, now get ready for some morning maniac music.",
-      "source": "Grace Slick, introducing 'Jefferson Airplane'",
+      "source": "Grace Slick, introducing 'Jefferson Airplane'"
+    },
+    {
       "quote": "The New York State thruway is closed, man!",
       "source": "Arlo Guthrie"
     }
   ]
-}
