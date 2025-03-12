@@ -20,10 +20,14 @@ body {
   flex-direction: column;
 }
 
-.quote {
+#quote {
+  font-family: Nosifer, Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  padding: 5px;
   background: blanchedalmond;
   color: darkgray;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 h1 {
