@@ -25,4 +25,4 @@ async function moon() {
 moon();
 
 // Refresh quote every hour
-setInterval(wood, 360000);
+setInterval(moon, 360000);

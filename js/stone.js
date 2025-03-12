@@ -25,4 +25,4 @@ async function stone() {
 stone();
 
 // Refresh quote every hour
-setInterval(wood, 360000);
+setInterval(stone, 360000);

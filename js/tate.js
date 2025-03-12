@@ -25,4 +25,4 @@ async function tate() {
 tate();
 
 // Refresh quote every hour
-setInterval(wood, 360000);
+setInterval(tate, 360000);
