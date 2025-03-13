@@ -1,3 +1,3 @@
-function julyTwentyEight {
+function julyTwentyEight() {
   alert("Shannon Neumann's Birthday")
 }
