@@ -13,7 +13,15 @@
       "source": "Neil Armstrong after the LEM had landed on the moon"
     },
     {
-         "quote": "Magnificent Desolation",
+      "quote": "Magnificent Desolation",
       "source": "'Buzz' Aldrin's description of the lunar surface"
+    },
+    {
+      "quote": "Roger, Tranquility. We copy you on the ground. You've got a bunch of guys about to turn blue. We're breathing again. Thanks a lot.",
+      "source": "Charlie Duke (Mission CAPCOM)"
+    },
+    {
+      "quote": "We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too.",
+      "source": "President John F. Kennedy"
     }
   ]
