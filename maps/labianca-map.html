@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LaBianca Home</title>
+    <title>LaBianca Home</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
+
 <body>
-  
+    <script async defer>
+        (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
+            key: "API KEY HERE",
+            v: "alpha",
+        });
+    </script>
+    <script>
+        async function init() {
+            const { Map3DElement, MapMode } = await google.maps.importLibrary("maps3d");
+
+            const map3DElement = new Map3DElement({
+                center: { lat: 34.113796759115694, lng: -118.27309462445943, altitude: 0 },
+                range: 1000,
+                tilt: 60,
+                mode: MapMode.SATELLITE,
+            });
+
+            // const { Polygon3DElement, AltitudeMode } = await google.maps.importLibrary("maps3d");
+
+            // const polygonOptions = {
+                // strokeColor: "#EA433580",
+                // strokeWidth: 4,
+                // fillColor: "#0000FF80",
+                // fillOpacity: 0.2,
+                // altitudeMode: "ABSOLUTE",
+                // extruded: true,
+                // drawsOccludedSegments: true,
+            // }
+
+            document.body.append(map3DElement);
+        }
+        
+        init();
+    </script>
+
 </body>
 </html>
