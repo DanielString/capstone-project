@@ -70,6 +70,7 @@ h1 {
 
 #calendar .days li:hover {
   background: #9a9a9a;
+  cursor: pointer;
 }
 
 .days .red-letter a:visited {

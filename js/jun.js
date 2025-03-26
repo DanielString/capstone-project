@@ -70,7 +70,7 @@ function junEighteen() {
   alert("'The Wild Bunch', starring William Holden and Ernest Borgnine, is released.")
 }
 
-function junNinteen() {
+function junNineteen() {
   alert("The House of Representatives voted to ban health warnings in cigarette ads for six years.")
 }
 
@@ -99,7 +99,7 @@ function junTwentyFive() {
 }
 
 function junTwentySix() {
-  alert("A former NASA official told reporters in Houston that lunar module pilot Edwin 'Buzz' Aldrin had originally been scheduled to become the first man to set foot on the Moon during the upcoming Apollo 11 mission, but a change was made to Armstrong sometime in April or 1969.")
+  alert("A former NASA official told reporters in Houston that lunar module pilot Edwin 'Buzz' Aldrin had originally been scheduled to become the first man to set foot on the Moon during the upcoming Apollo 11 mission, but a change was made to Armstrong sometime in April of 1969.")
 }
 
 function junTwentySeven() {

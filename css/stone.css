@@ -23,6 +23,7 @@ body {
 #quote {
   font-family: Oswald, Georgia, 'Times New Roman', Times, serif;
   font-size: 1.7rem;
+  text-shadow: 1px 1px 1px black;
   padding: 5px;
   background: blanchedalmond;
   color: darkgray;

@@ -1,5 +1,5 @@
 function augOne() {
-  alert("Three newspapers (The Vallejo Times Herald, The San Francisco Chronicle and The San Francisco Examiner) recieve a letter from an unknown person claiming to have killed 3 persons.  He would become known as 'The Zodiac Killer.")
+  alert("Three newspapers (The Vallejo Times Herald, The San Francisco Chronicle and The San Francisco Examiner) recieve a letter from an unknown person claiming to have killed 3 persons.  He would become known as 'The Zodiac Killer'.")
 }
 
 function augTwo() {
