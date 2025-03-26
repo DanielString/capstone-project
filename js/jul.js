@@ -111,7 +111,7 @@ function julTwentyNine() {
 }
 
 function julThirty() {
-  alert("Centerfielder Bobby Tolan goes 3 for 4 with a double as the Cincinnati Reds beath the expansion Montreal Expos, 5-3 at Crosley Field in Cincinnati, OH.")
+  alert("Centerfielder Bobby Tolan goes 3 for 4 with a double as the Cincinnati Reds beat the expansion Montreal Expos, 5-3 at Crosley Field in Cincinnati, OH.")
 }
 
 function julThirtyOne() {
