@@ -39,7 +39,7 @@ function julTen() {
 }
 
 function julEleven() {
-  alert("Philips Records released David Bowie's song 'Space Oddity' (about a fictional astronaut, 'Major Tom') in conjunction with the expected launch of the Apollo 11 mission to the Moon.[62] Bowie had recorded the song three weeks earlier.")
+  alert("Philips Records released David Bowie's song 'Space Oddity' (about a fictional astronaut, 'Major Tom') in conjunction with the expected launch of the Apollo 11 mission to the Moon. Bowie had recorded the song three weeks earlier.")
 }
 
 function julTwelve() {
